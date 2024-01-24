@@ -1614,10 +1614,6 @@ video {
   gap: 40px;
 }
 
-.gap-1{
-  gap: 0.25rem;
-}
-
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -2357,6 +2353,11 @@ video {
   padding-bottom: 4px;
 }
 
+.px-\[1\]{
+  padding-left: 1;
+  padding-right: 1;
+}
+
 .pb-2{
   padding-bottom: 0.5rem;
 }
@@ -2511,6 +2512,10 @@ video {
 
 .text-\[32px\]{
   font-size: 32px;
+}
+
+.text-\[14px\]{
+  font-size: 14px;
 }
 
 .font-bold{
@@ -2687,6 +2692,10 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\]{
+  color: ;
 }
 
 .underline{
@@ -3318,20 +3327,6 @@ video {
   }
 }
 
-@media not all and (min-width: 640px){
-  .max-sm\:flex-wrap{
-    flex-wrap: wrap;
-  }
-
-  .max-sm\:items-center{
-    align-items: center;
-  }
-
-  .max-sm\:justify-center{
-    justify-content: center;
-  }
-}
-
 @media (min-width: 640px){
   .sm\:mt-\[31px\]{
     margin-top: 31px;
@@ -3373,6 +3368,11 @@ video {
     padding-bottom: 16px;
   }
 
+  .sm\:px-\[16px\]{
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
   .sm\:pb-\[60px\]{
     padding-bottom: 60px;
   }
@@ -3411,6 +3411,10 @@ video {
 
   .sm\:text-\[48px\]{
     font-size: 48px;
+  }
+
+  .sm\:text-\[16px\]{
+    font-size: 16px;
   }
 
   .sm\:leading-\[28px\]{
