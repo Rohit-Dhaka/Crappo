@@ -2418,6 +2418,18 @@ video {
   padding-top: 59px;
 }
 
+.pb-\[\]{
+  padding-bottom: ;
+}
+
+.pb-\[20\]{
+  padding-bottom: 20;
+}
+
+.pb-\[10px\]{
+  padding-bottom: 10px;
+}
+
 .text-left{
   text-align: left;
 }
@@ -3441,6 +3453,10 @@ video {
 
   .md\:items-end{
     align-items: flex-end;
+  }
+
+  .md\:pb-\[60px\]{
+    padding-bottom: 60px;
   }
 }
 
