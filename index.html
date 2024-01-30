@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./dist/output.css">
     <link rel="shortcut icon" href="./dist/img/Logo.png" type="image/x-icon">
     <!-- Primary Meta Tags -->
@@ -25,12 +25,13 @@
     <meta property="twitter:description" content="Fastest & secure platform to invest in crypto">
     <meta property="twitter:image" content="https://i.ibb.co/qRNKjJ3/Screenshot-2024-01-24-122221.png">
 </head>
+
 <body>
-    <section class="bg-[#0D0D2B] relative overflow-hidden">
+    <section class="bg-[#0D0D2B] relative max-lg:overflow-hidden">
         <img src="./dist/img/mainsection1.webp" alt="background-gradient"
             class="absolute bottom-0 right-0 animate-pulse -z-0">
         <img src="./dist/img/mainsection2.webp" alt="background-gradient"
-            class="absolute bottom-[-22%] right-[30%] animate-pulse -z-0">
+            class="absolute bottom-[-22%] right-[30%] animate-pulse z-10">
         <div class="container max-w-[1200px] px-[12px] mx-auto">
             <nav class="flex justify-between lg:pt-[60px] pt-[30px] items-center">
                 <div class="logo flex items-center gap-[16px]">
@@ -39,7 +40,7 @@
                     </h5>
                 </div>
                 <div
-                    class="menulist flex items-center lg:gap-[56px] gap-[40px]   max-lg:bg-[#0D0D2B] max-lg:absolute max-lg:top-0 max-lg:right-[-100%] max-lg:h-screen  max-lg:w-full max-lg:flex max-lg:flex-col max-lg:items-center  max-lg:justify-center duration-300 ease-linear z-40">
+                    class="menulist flex items-center lg:gap-[28px] gap-[40px]   max-lg:bg-[#0D0D2B] max-lg:absolute max-lg:top-0 max-lg:right-[-100%] max-lg:h-screen  max-lg:w-full max-lg:flex max-lg:flex-col max-lg:items-center  max-lg:justify-center duration-300 ease-linear z-40">
                     <ul
                         class="flex lg:gap-[32px] gap-[25px] leading-[28px] tracking-[0.16px] font-Rubik font-normal  text-white lg:text-[16px] text-[12px] max-lg:flex max-lg:flex-col max-lg:items-center">
                         <li><a href="#"
@@ -57,8 +58,9 @@
                     </ul>
                     <a href="#"
                         class="font-Rubik text-white leading-[150%] font-medium lg:text-[16px] text-[12px]">Login</a>
-                    <button
-                        class="font-Rubik leading-[150%] font-medium lg:text-[16px] text-[12px] rounded-[32px] bg-[#3671E9] py-[14px] px-[32px] text-white hover:bg-white hover:text-[#3671E9] duration-300 ease-linear">Register</button>
+                    <span class="w-[1px] h-[24px] bg-[#F2F2F2] bg-opacity-[0.3] lg:block hidden "></span>                               
+                    <button class="relative py-[14px] px-[32px] overflow-hidden border border-[#3671E9] rounded-[32px] bg-[#3671E9] text-white shadow-2xl transition-all before:absolute before:left-0 before:top-0 before:h-full before:w-0 before:duration-500 after:absolute after:right-0 after:top-0 after:h-full after:w-0 after:duration-500 hover:text-[#3671E9]  hover:before:w-2/4 hover:before:bg-white hover:after:w-2/4 hover:after:bg-white"><span class="relative z-10 font-Rubik text-[16px] font-medium leading-[150%]">Learn More</span></button>       
+                    
                 </div>
                 <div class="menuicon  hidden max-lg:block z-40 duration-500 max-lg:transition-all">
                     <span class="bar w-[27px] h-[3px] bg-white block duration-500 max-lg:transition-all"></span>
@@ -70,18 +72,20 @@
             <div
                 class="flex flex-wrap-reverse flex-row mx-[-12px] lg:pt-[86px] lg:pb-[102px] sm:pt-[60px] pt-[40px] sm:pb-[60px] pb-[40px]">
                 <div class="lg:w-[50%] px-[12px] w-full max-lg:pt-[24px] z-20">
-                    <div class="rounded-[32px] bg-[#252540] max-w-[365px] flex sm:gap-[16px] p-1  gap-2">
+                    <div class="rounded-[32px] bg-[#252540] max-w-[365px] flex sm:gap-[16px] p-1  gap-2 items-center">
                         <div
                             class="bg-white text-[#0D0D2B]  lg:text-[16px] text-[12px] font-medium font-Rubik leading-[150%] tracking-[0.64px] rounded-[32px] py-[4px] sm:px-[16px] px-[12px] text-nowrap">
                             75% SAVE</div>
-                        <h5 class="text-white font-normal font-Rubik leading-[28px] tracking-[0.16x] text-nowrap sm:text-[16px] text-[14px]">For the Black
+                        <h5
+                            class="text-white font-normal font-Rubik leading-[28px] tracking-[0.16x] text-nowrap sm:text-[16px] text-[14px]">
+                            For the Black
                             Friday weekend</h5>
                     </div>
                     <h1
                         class="font-Rubik text-white font-bold lg:text-[64px] pt-[24px] sm:text-[48px] text-[32px] leading-tight">
                         Fastest & secure platform to invest in crypto</h1>
                     <h5
-                        class="font-Rubik text-[16x] font-normal leading-[28px] tracking-[0.16px] pt-[24px] max-w-[435px] text-white">
+                        class="font-Rubik text-[16x] font-normal leading-[28px] tracking-[0.16px] pt-[24px] max-w-[435px] text-[#E0E0E0]">
                         Buy and sell cryptocurrencies, trusted by 10M wallets with over $30 billion in transactions.
                     </h5>
                     <div
@@ -103,16 +107,17 @@
             </div>
         </div>
     </section>
-    <section class="bg-[#0D0D2B] relative">
+    <section class="bg-[#0D0D2B] relative ">
         <img src="./dist/img/secondsection1.webp" alt="background-gradient"
             class="absolute bottom-0 left-0 animate-pulse">
         <img src="./dist/img/d.webp" alt="background-gradient" class="absolute right-0 top-[20%] animate-pulse">
         <img src="./dist/img/u.webp" alt="background-gradient" class="absolute right-0 bottom-[8%] animate-pulse">
         <div class="container max-w-[1200px] mx-auto px-[12px]">
-            <div class="flex flex-wrap flex-row mx-[-12px] lg:pt-[100px] sm:pt-[60px] pt-[40px]">
+            <div class="flex flex-wrap flex-row mx-[-12px] lg:pt-[100px] sm:pt-[60px] pt-[40px] ">
                 <div class="md:w-[33.33%] w-full px-[12px] flex flex-col md:items-start items-center">
-                    <div class="flex gap-[24px] max-w-[360px] w-full">
-                        <div class="w-[80px] h-[80px] rounded-full bg-[#252540] flex items-center justify-center">
+                    <div class="flex gap-[24px] max-w-[360px] w-full group">
+                        <div
+                            class="w-[80px] h-[80px] rounded-full bg-[#252540] flex items-center justify-center group-hover:bg-white duration-300 ease-linear">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
                                 fill="none">
                                 <path
@@ -140,8 +145,9 @@
                     </div>
                 </div>
                 <div class="md:w-[33.33%] w-full px-[12px] flex flex-col items-center max-md:pt-[24px]">
-                    <div class="flex gap-[24px] max-w-[360px] w-full">
-                        <div class="w-[80px] h-[80px] rounded-full bg-[#252540] flex items-center justify-center">
+                    <div class="flex gap-[24px] max-w-[360px] w-full group">
+                        <div
+                            class="w-[80px] h-[80px] rounded-full bg-[#252540] flex items-center justify-center group-hover:bg-white duration-300 ease-linear">
                             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"
                                 fill="none">
                                 <path
@@ -163,8 +169,9 @@
                     </div>
                 </div>
                 <div class="md:w-[33.33%] w-full px-[12px] flex flex-col md:items-end items-center max-md:pt-[24px]">
-                    <div class="flex gap-[24px] max-w-[360px] w-full">
-                        <div class="w-[80px] h-[80px] rounded-full bg-[#252540] flex items-center justify-center">
+                    <div class="flex gap-[24px] max-w-[360px] w-full  group">
+                        <div
+                            class="w-[80px] h-[80px] rounded-full bg-[#252540] flex items-center justify-center group-hover:bg-white duration-300 ease-linear">
                             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"
                                 fill="none">
                                 <path
@@ -188,16 +195,13 @@
                     <img src="./dist/img/Illustrations.webp" alt="illustrations-image"
                         class="max-w-[600px] mx-auto w-full">
                 </div>
-                <div class="lg:w-[50%] px-[12px] w-full">
+                <div class="lg:w-[50%] px-[12px] w-full lg:pl-[120px]">
                     <h2 class="font-Rubik lg:text-[40px] text-[32px]  leading-[150%] font-bold text-white">Why you
                         should choose CRAPPO</h2>
                     <h5
-                        class="font-Rubik lg:text-[16px] text-[12px] font-normal leading-[28px] max-w-[408px] tracking-[0.16px] text-[#E0E0E0] sm:pt-[23px] pt-[10px]">
-                        Experience the next generation cryptocurrency platform. No financial borders, extra fees, and
+                        class="font-Rubik lg:text-[16px] text-[12px] font-normal leading-[28px] max-w-[408px] tracking-[0.16px] text-[#E0E0E0] sm:pt-[23px] pt-[10px]">Experience the next generation cryptocurrency platform. No financial borders, extra fees, and
                         fake reviews.</h5>
-                    <button
-                        class="font-Rubik text-[18px] font-medium leading-[150%] text-white bg-[#3671E9] rounded-[32px] lg:py-[16px] lg:px-[24px] sm:mt-[31px] mt-[10px] hover:bg-white hover:text-[#3671E9] duration-300 ease-linear py-[12px] px-[18px]">Learn
-                        More</button>
+                        <button class="relative py-[16px] px-[24px] overflow-hidden border border-[#3671E9] rounded-[32px] bg-[#3671E9] text-white shadow-2xl transition-all before:absolute before:left-0 before:top-0 before:h-full before:w-0 before:duration-500 after:absolute after:right-0 after:top-0 after:h-full after:w-0 after:duration-500 hover:text-[#3671E9]  hover:before:w-2/4 hover:before:bg-white hover:after:w-2/4 hover:after:bg-white mt-[31px]"><span class="relative z-10 font-Rubik text-[18px] font-medium leading-[150%]">Learn More</span></button> 
                 </div>
             </div>
         </div>
@@ -208,31 +212,29 @@
                 <h2 class="text-white font-Rubik lg:text-[40px] text-[32px]  font-bold  leading-[150%]">Check how much
                     you can earn</h2>
                 <h5
-                    class="text[#E0E0E0] font-normal leading-[150%] font-Rubik text-[18px] lg:pt-[24px]  pt-[12px] lg:max-w-[622px] text-white text-center">
+                    class="text[#E0E0E0] font-normal leading-[150%] font-Rubik text-[18px] lg:pt-[24px]  pt-[12px] lg:max-w-[622px] text-white text-center ">
                     Let’s check your hash rate to see how much you will earn today, Exercitation veniam consequat sunt
                     nostrud amet.</h5>
                 <div
                     class="max-w-[942px] w-full bg-[#FBFCFE] lg:mt-[64px] mt-[40px] rounded-t-[16px] lg:p-[48px] sm:p-[40px] p-[20px]">
-                    <div class="flex flex-wrap flex-row mx-[-12px] items-center">
+                    <div class="flex flex-wrap flex-row mx-[-12px] items-end">
                         <div class="lg:w-[50%] px-[12px] w-full">
                             <input type="number" placeholder="Enter your hash rate"
-                                class="text-[#0D0D2B] font-Rubik text-[20px] font-normal leading-[150%] border-b-[1px] border-solid border-[#E0E0E0] w-full outline-none bg-transparent">
+                                class="text-[#0D0D2B] font-Rubik text-[20px] font-normal leading-[150%] border-b-[1px] border-solid border-[#E0E0E0] w-full outline-none bg-transparent ">
                         </div>
-                        <div class="lg:w-[33.33%] px-[12px] sm:w-[50%] max-lg:mt-[12px] w-full">
-                            <select
-                                class=" w-full bg-transparent border-b-[1px] border-solid border-[#E0E0E0] pb-2 outline-none ">
-                                <option value="TH/s">TH/s</option>
-                                <option value="EH/s">EH/s</option>
-                                <option value="PH/s">PH/s</option>
-                                <option value="GH/s">GH/s</option>
-                                <option value="MH/s">MH/s</option>
-                                <option value="kH/s">kH/s</option>
-                            </select>
-                        </div>
-                        <div class="lg:w-[16.66%] px-[12px] sm:w-[50%] w-full max-lg:mt-[12px]">
-                            <button
-                                class="font-Rubik text-[18px] font-medium leading-[150%] text-white bg-[#3671E9] rounded-[32px] py-[16px] px-[24px] hover:bg-white hover:text-[#3671E9] duration-300 ease-linear border-[1px] hover:border-[#3671E9] border-solid border-transparent max-lg:w-full">Calculate</button>
-                        </div>
+                        <div class="lg:w-[50%] w-full  px-[12px]">
+                            <div class="flex gap-[48px]">
+                                <select class="max-w-[200px] w-full bg-transparent border-b-[1px] border-solid border-[#E0E0E0] pb-2 outline-none">
+                                    <option value="TH/s">TH/s</option>
+                                    <option value="EH/s">EH/s</option>
+                                    <option value="PH/s">PH/s</option>
+                                    <option value="GH/s">GH/s</option>
+                                    <option value="MH/s">MH/s</option>
+                                    <option value="kH/s">kH/s</option>
+                                </select>
+                                <button class="relative py-[16px] px-[32px] overflow-hidden border border-[#3671E9] rounded-[32px] bg-[#3671E9] text-white shadow-2xl transition-all before:absolute before:left-0 before:top-0 before:h-full before:w-0 before:duration-500 after:absolute after:right-0 after:top-0 after:h-full after:w-0 after:duration-500 hover:text-[#3671E9]  hover:before:w-2/4 hover:before:bg-white hover:after:w-2/4 hover:after:bg-white"><span class="relative z-10 font-Rubik text-[18px] font-medium leading-[150%] text-nowrap">Calculate</span></button>
+                            </div>
+                        </div>                      
                     </div>
                 </div>
             </div>
@@ -291,9 +293,9 @@
                             class="text-[#828282] text-[16px] font-normal leading-[28px] font-Rubik text-center pt-[26px] whitehover">
                             Digital currency in which a record of transactions is maintained.</h5>
                         <div
-                            class="w-[64px] h-[64px] border-solid border-[2px] border-[#D5CDE2] rounded-full flex items-center justify-center hover:w-[180px] duration-500 hover:bg-[#3671E9] hover:border-[#3671E9] hover:justify-between hover:py-[16px] hover:pl-[24px] card-btn mt-[25px] ">
+                            class="w-[64px] h-[64px] border-solid border-[2px] border-[#D5CDE2] rounded-full flex items-center justify-center hover:w-[185px] duration-500 hover:bg-[#3671E9] hover:border-[#3671E9] hover:justify-between hover:py-[16px] hover:pl-[24px] card-btn mt-[25px] ">
                             <button
-                                class="font-Rubik font-medium leading-[150%] text-[18px] text-white hidden btn text-nowrap">Start
+                                class="font-Rubik font-medium leading-[150%] text-[18px] text-white hidden btn text-nowrap overflow-hidden">Start
                                 mining</button>
                             <div class="card-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"
@@ -328,12 +330,12 @@
                             <h6 class="text-[#BDBDBD] text-[18px] font-medium leading-[150%]">ETH</h6>
                         </div>
                         <h5
-                            class="text-[#828282] lg:text-[16px] text-[12px] font-normal leading-[28px] font-Rubik text-center pt-[26px] whitehover">
+                            class="text-[#828282] text-[16px]  font-normal leading-[28px] font-Rubik text-center pt-[26px] whitehover">
                             Blockchain technology to create and run decentralized digital applications.</h5>
                         <div
-                            class="w-[64px] h-[64px] border-solid border-[2px] border-[#D5CDE2] rounded-full flex items-center justify-center hover:w-[180px] duration-500 hover:bg-[#3671E9] hover:border-[#3671E9] hover:justify-between hover:py-[16px] hover:pl-[24px] card-btn mt-[25px]">
+                            class="w-[64px] h-[64px] border-solid border-[2px] border-[#D5CDE2] rounded-full flex items-center justify-center hover:w-[185px] duration-500 hover:bg-[#3671E9] hover:border-[#3671E9] hover:justify-between hover:py-[16px] hover:pl-[24px] card-btn mt-[25px]">
                             <button
-                                class="font-Rubik font-medium leading-[150%] text-[18px] text-white hidden btn text-nowrap">Start
+                                class="font-Rubik font-medium leading-[150%] text-[18px] text-white hidden btn text-nowrap overflow-hidden">Start
                                 mining</button>
                             <div class="card-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"
@@ -369,12 +371,12 @@
                             <h6 class="text-[#BDBDBD] text-[18px] font-medium leading-[150%]">LTC</h6>
                         </div>
                         <h5
-                            class="text-[#828282] lg:text-[16px] text-[12px] font-normal leading-[28px] font-Rubik text-center pt-[26px] whitehover">
+                            class="text-[#828282] text-[16px]  font-normal leading-[28px] font-Rubik text-center pt-[26px] whitehover">
                             Cryptocurrency that enables instant payments to anyone in the world.</h5>
                         <div
-                            class="w-[64px] h-[64px] border-solid border-[2px] border-[#D5CDE2] rounded-full flex items-center justify-center hover:w-[180px] duration-500 hover:bg-[#3671E9] hover:border-[#3671E9] hover:justify-between hover:py-[16px] hover:pl-[24px] card-btn mt-[25px]">
+                            class="w-[64px] h-[64px] border-solid border-[2px] border-[#D5CDE2] rounded-full flex items-center justify-center hover:w-[185px] duration-500 hover:bg-[#3671E9] hover:border-[#3671E9] hover:justify-between hover:py-[16px] hover:pl-[24px] card-btn mt-[25px]">
                             <button
-                                class="font-Rubik font-medium leading-[150%] text-[18px] text-white hidden btn text-nowrap">Start
+                                class="font-Rubik font-medium leading-[150%] text-[18px] text-white hidden btn text-nowrap overflow-hidden">Start
                                 mining</button>
                             <div class="card-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"
@@ -391,7 +393,7 @@
         </div>
     </section>
     <section class="bg-[#2B076E] relative overflow-hidden">
-        <img src="./dist/img/o.webp" alt="background-gradient" class="absolute top-0 left-[15%] animate-pulse">
+        <img src="./dist/img/o.webp" alt="background-gradient" class="absolute top-0 left-[15%] animate-pulse -z-0">
         <img src="./dist/img/o1.webp" alt="background-gradient" class="absolute right-0 bottom-0 animate-pulse">
         <div class="container max-w-[1200px] px-[12px] mx-auto">
             <div class="flex justify-center lg:pt-[100px] sm:pt-[60px] pt-[40px]">
@@ -407,9 +409,7 @@
                         class="text-[#E0E0E0] lg:text-[16px] text-[12px] font-normal leading-[28px] tracking-[0.16px] max-w-[408px] pt-[24px]">
                         Get full statistic information about the behaviour of buyers and sellers will help you to make
                         the decision. </h5>
-                    <button
-                        class="font-Rubik mt-[32px]  sm:text-[18px] text-[16px] font-medium leading-[150%] text-white bg-[#3671E9] rounded-[32px] sm:py-[16px] sm:px-[24px] py-[16px] px-[14px] hover:bg-white hover:text-[#3671E9] duration-300 ease-linear">Learn
-                        More</button>
+                        <button class="relative py-[16px] px-[24px] overflow-hidden border border-[#3671E9] rounded-[32px] bg-[#3671E9] text-white shadow-2xl transition-all before:absolute before:left-0 before:top-0 before:h-full before:w-0 before:duration-500 after:absolute after:right-0 after:top-0 after:h-full after:w-0 after:duration-500 hover:text-[#3671E9]  hover:before:w-2/4 hover:before:bg-white hover:after:w-2/4 hover:after:bg-white mt-[31px]"><span class="relative z-10 font-Rubik text-[18px] font-medium leading-[150%]">Learn More</span></button>
                 </div>
                 <div class="lg:w-[58.33%] px-[12px] w-full">
                     <img src="./dist/img/Chart.webp" alt="chart-image" class="w-full max-w-[580px] mx-auto">
@@ -427,9 +427,7 @@
                         class="text-[#E0E0E0] lg:text-[16px] text-[12px] font-normal leading-[28px] tracking-[0.16px] max-w-[408px] pt-[24px]">
                         View all mining related information in realtime, at any point at any location and decide which
                         polls you want to mine in.</h5>
-                    <button
-                        class="font-Rubik mt-[32px]  sm:text-[18px] text-[16px] font-medium leading-[150%] text-white bg-[#3671E9] rounded-[32px] sm:py-[16px] sm:px-[24px] py-[16px] px-[14px] hover:bg-white hover:text-[#3671E9] duration-300 ease-linear ">Learn
-                        More</button>
+                        <button class="relative py-[16px] px-[32px] overflow-hidden border border-[#3671E9] rounded-[32px] bg-[#3671E9] text-white shadow-2xl transition-all before:absolute before:left-0 before:top-0 before:h-full before:w-0 before:duration-500 after:absolute after:right-0 after:top-0 after:h-full after:w-0 after:duration-500 hover:text-[#3671E9]  hover:before:w-2/4 hover:before:bg-white hover:after:w-2/4 hover:after:bg-white mt-[31px]"><span class="relative z-10 font-Rubik text-[18px] font-medium leading-[150%]">Learn More</span></button>
                 </div>
             </div>
             <div
@@ -441,9 +439,7 @@
                         class="text-[#E0E0E0] lg:text-[16px] text-[12px] font-normal leading-[28px] tracking-[0.16px] max-w-[408px] pt-[24px]">
                         Use advanced analytical tools. Clear TradingView charts let you track current and historical
                         profit investments.</h5>
-                    <button
-                        class="font-Rubik mt-[32px]  sm:text-[18px] text-[16px] font-medium leading-[150%] text-white bg-[#3671E9] rounded-[32px] sm:py-[16px] sm:px-[24px] py-[16px] px-[14px]  hover:bg-white hover:text-[#3671E9] duration-300 ease-linear ">Learn
-                        More</button>
+                        <button class="relative py-[16px] px-[32px] overflow-hidden border border-[#3671E9] rounded-[32px] bg-[#3671E9] text-white shadow-2xl transition-all before:absolute before:left-0 before:top-0 before:h-full before:w-0 before:duration-500 after:absolute after:right-0 after:top-0 after:h-full after:w-0 after:duration-500 hover:text-[#3671E9]  hover:before:w-2/4 hover:before:bg-white hover:after:w-2/4 hover:after:bg-white mt-[32px]"><span class="relative z-10 font-Rubik text-[18px] font-medium leading-[150%]">Learn More</span></button>
                 </div>
                 <div class="lg:w-[41.66%] px-[12px] w-full">
                     <img src="./dist/img/Table.webp" alt="table-image" class="max-w-[680px] w-full">
@@ -484,11 +480,12 @@
     </section>
     <footer class="bg-[#0D0D2B] ">
         <div class="container max-w-[1200px] px-[12px] mx-auto ">
-            <div class="flex flex-wrap flex-row mx-[-12px] lg:pt-[80px] lg:pb-[120px] pt-[40px] md:pb-[60px] pb-[10px]">
+            <div class="flex flex-wrap flexrow mx-[-12px] lg:pt-[80px] lg:pb-[120px] pt-[40px] md:pb-[60px] pb-[10px]">
                 <div class="lg:w-[25%] px-[12px] w-full">
                     <div class="logo flex items-center gap-[16px]">
-                        <img src="./dist/img/Logo.svg" alt="Logo-image">
-                        <h5 class="font-Inter text-[18px] font-semibold leading-none tracking-[0.72px] text-white">
+                        <img src="./dist/img/Logo.svg" alt="Logo-image" class="cursor-pointer " onclick="topFunction()">
+                        <h5 class="font-Inter text-[18px] font-semibold leading-none tracking-[0.72px] text-white cursor-pointer"
+                            onclick="topFunction()">
                             CRAPPO
                         </h5>
                     </div>
@@ -543,8 +540,7 @@
                             class="font-Rubik lg:text-[32px] text-[28px] font-medium leading-[150%] text-white max-w-[355px] not-italic">
                             We accept following payment systems</h5>
                         <div class="lg:pt-[40px] flex gap-[24px] pt-[20px]">
-                            <div
-                                class="w-[96px] h-[64px] rounded-[8px] bg-[#181834] flex items-center justify-center animate-bounce">
+                            <div class="w-[96px] h-[64px] rounded-[8px] bg-[#181834] flex items-center justify-center ">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"
                                     fill="none">
                                     <g clip-path="url(#clip0_1_17444)">
@@ -559,8 +555,7 @@
                                     </defs>
                                 </svg>
                             </div>
-                            <div
-                                class="w-[96px] h-[64px] rounded-[8px] bg-[#181834] flex items-center justify-center animate-bounce">
+                            <div class="w-[96px] h-[64px] rounded-[8px] bg-[#181834] flex items-center justify-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="38" viewBox="0 0 48 38"
                                     fill="none">
                                     <path d="M17.4937 7.22742H30.4593V30.9537H17.4937V7.22742Z" fill="#BDBDBD" />
@@ -572,8 +567,7 @@
                                         fill="#E0E0E0" />
                                 </svg>
                             </div>
-                            <div
-                                class="w-[96px] h-[64px] rounded-[8px] bg-[#181834] flex items-center justify-center animate-bounce">
+                            <div class="w-[96px] h-[64px] rounded-[8px] bg-[#181834] flex items-center justify-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"
                                     fill="none">
                                     <g clip-path="url(#clip0_1_17433)">
@@ -597,8 +591,8 @@
             </div>
             <div class="sm:flex justify-between lg:pb-[80px]  pb-[40px]">
                 <h6
-                    class="font-Rubik lg:text-[16px] text-[12px] font-normal leading-[28px] tracking-[0.16px] text-white max-lg:pb-[20px]">
-                    ©2021 CRAPPO. All rights reserved</h6>
+                    class="font-Rubik lg:text-[16px] text-[12px] font-normal leading-[28px] tracking-[0.16px] text-white max-lg:pb-[20px] flex gap-[2px]">
+                    ©<p id="date"></p> CRAPPO. All rights reserved</h6>
                 <div class="flex gap-[32px]">
                     <a href="" class="hover:translate-y-[-8px]  duration-300 ease-linear">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -647,6 +641,24 @@
             document.body.classList.toggle("overflow-hidden");
             menuicon.classList.toggle("active");
         })
+        const d = new Date();
+        let year = d.getFullYear();
+        document.getElementById("date").innerHTML = year;
+
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+        window.onscroll = function () { scrollFunction() };
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
     </script>
 </body>
 
