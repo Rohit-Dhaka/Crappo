@@ -978,12 +978,28 @@ video {
   width: 100%;
 }
 
+.w-\[50\%\]{
+  width: 50%;
+}
+
+.w-\[\]{
+  width: ;
+}
+
+.w-\[147px\]{
+  width: 147px;
+}
+
 .min-w-\[370px\]{
   min-width: 370px;
 }
 
 .max-w-\[1200px\]{
   max-width: 1200px;
+}
+
+.max-w-\[180px\]{
+  max-width: 180px;
 }
 
 .max-w-\[190px\]{
@@ -1608,10 +1624,6 @@ video {
 
 .gap-\[40px\]{
   gap: 40px;
-}
-
-.gap-\[48px\]{
-  gap: 48px;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
@@ -3270,11 +3282,6 @@ video {
   width: 50%;
 }
 
-.hover\:before\:w-1\/4:hover::before{
-  content: var(--tw-content);
-  width: 25%;
-}
-
 .hover\:before\:bg-white:hover::before{
   content: var(--tw-content);
   --tw-bg-opacity: 1;
@@ -3299,16 +3306,6 @@ video {
 .hover\:after\:w-full:hover::after{
   content: var(--tw-content);
   width: 100%;
-}
-
-.hover\:after\:w-3\/4:hover::after{
-  content: var(--tw-content);
-  width: 75%;
-}
-
-.hover\:after\:w-1\/4:hover::after{
-  content: var(--tw-content);
-  width: 25%;
 }
 
 .hover\:after\:bg-white:hover::after{
@@ -3415,14 +3412,40 @@ video {
     margin-top: 24px;
   }
 
+  .max-md\:w-full{
+    width: 100%;
+  }
+
+  .max-md\:w-\[50\%\]{
+    width: 50%;
+  }
+
+  .max-md\:gap-\[\]{
+    gap: ;
+  }
+
+  .max-md\:gap-\[20px\]{
+    gap: 20px;
+  }
+
   .max-md\:pt-\[24px\]{
     padding-top: 24px;
+  }
+}
+
+@media not all and (min-width: 640px){
+  .max-sm\:flex-wrap{
+    flex-wrap: wrap;
   }
 }
 
 @media (min-width: 640px){
   .sm\:flex{
     display: flex;
+  }
+
+  .sm\:w-\[50\%\]{
+    width: 50%;
   }
 
   .sm\:gap-\[16px\]{
@@ -3506,6 +3529,18 @@ video {
     width: 50%;
   }
 
+  .md\:w-full{
+    width: 100%;
+  }
+
+  .md\:w-\[147px\]{
+    width: 147px;
+  }
+
+  .md\:max-w-\[200px\]{
+    max-width: 200px;
+  }
+
   .md\:items-start{
     align-items: flex-start;
   }
@@ -3575,10 +3610,6 @@ video {
 
   .lg\:gap-\[32px\]{
     gap: 32px;
-  }
-
-  .lg\:overflow-hidden{
-    overflow: hidden;
   }
 
   .lg\:p-\[48px\]{
@@ -3663,14 +3694,6 @@ video {
 
   .lg\:text-\[64px\]{
     font-size: 64px;
-  }
-}
-
-@media not all and (min-width: 1024px){
-  @media (min-width: 1024px){
-    .max-lg\:lg\:overflow-hidden{
-      overflow: hidden;
-    }
   }
 }
 
